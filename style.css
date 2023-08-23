@@ -1,0 +1,51 @@
+body{
+margin: 0px;
+padding: 0px;
+display: flex;
+justify-content: center;
+background-color: rgb(201, 244, 245);
+}
+
+.content
+{ 
+    
+    padding: 20px 10px 10px 10px;
+    padding-left:10px;
+    width: 150px;
+    border: 10px;
+    background-color: aquamarine;
+}
+
+
+.Button-1-:hover{
+background-color: blue;
+}
+.Button-2-:hover{
+    box-shadow:0 0 5px rgba(0,0,0,0.3);
+}
+.Button-3-:hover{
+    transform: scale(1,3);
+}
+.Button-4-:hover{
+    color:red;
+}
+.Button-5-:hover{
+    transform: rotate(45deg);
+}
+.Button-6-:hover {
+    
+    transition:background-color 0.3s ease;
+    background-color: lightblue;
+}
+.Button-7-:hover{
+    text-decoration: underline;
+}
+.Button-8-:hover{
+    opacity: 0.8;
+}
+.Button-9-:hover{
+    transform: translateX(10px);
+}
+.Button-10-:hover{
+    border:2px solid green
+}
